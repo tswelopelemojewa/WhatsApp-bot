@@ -24,7 +24,7 @@ const sendTestMessage = async () => {
 
     console.log("✅ Success:", response.data);
   } catch (err) {
-    console.error("❌ Error:", err.response?.data || err.message);
+    console.error("❌ Error Message:", err.response?.data || err.message);
   }
 };
 
