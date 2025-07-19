@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
-import { express } from "express";
-import { axios } from "axios";
+import express from "express";
+import axios from "axios";
 
 dotenv.config();
 const app = express();
